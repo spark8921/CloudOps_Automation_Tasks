@@ -8,3 +8,23 @@ variable "iam_user_name" {
   type = string
   default = "sample_user"
 }
+
+variable "team" {
+  description = "Team name"
+  type = string
+}
+
+variable "environment" {
+  description = "Environment name"
+  type = string
+}
+
+variable "owner" {
+  description = "Owner name"
+  type = string
+}
+
+variable "owner_email" {
+  description = "Owner email"
+  type = string
+}

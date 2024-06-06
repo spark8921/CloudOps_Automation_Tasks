@@ -1,6 +1,13 @@
 #Creates an IAM user
 resource "aws_iam_user" "sample_user" {
   name = var.iam_user_name
+  tags={
+    team=var.team
+    environment=var.environment
+    owner=var.owner
+    owner_email=var.owner_email
+    creation_date=timestamp()
+  }
 }
 
 #Defining the IAM policy for the user
@@ -12,7 +19,7 @@ resource "aws_iam_policy" "allow_password_change" {
     Statement=[
       {
         Action = "iam:ChangePassword",
-        Effect = "Allow",
+        Effect = "AlEnvironment",
         Resource = "*"
       }
     ]
