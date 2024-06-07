@@ -22,8 +22,7 @@ This project demonstrates how to use terraform to create an AWS IAM user with sp
 README.md : Documentation file for the project
 
 #Steps for running the application
-
-terraform init
-terraform plan
-terraform apply
-If you want to destroy, then terraform destroy
+1) terraform init
+2) terraform plan
+3) terraform apply
+4) If you want to destroy, then terraform destroy
