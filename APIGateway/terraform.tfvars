@@ -1,5 +1,0 @@
-region = "us-east-1"
-api_name = "sample_api"
-resource_name = "sample_resource"
-method_type = "GET"
-stage_name = "dev"
