@@ -15,3 +15,9 @@ This terraform configuration provides a structured approach to setting up an Azu
 4) providers.tf: Configures the Terraform providers, specifically Azure provider
 5) terraform.tfvars: Contains variable values specific to the deployment.
 6) modules/apim/ : Directory containing modularized Terraform configuration for APIM.
+
+#Steps for running the application
+1) terraform init
+2) terraform plan
+3) terraform apply
+4) If you want to destroy, then terraform destroy
