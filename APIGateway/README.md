@@ -3,9 +3,9 @@
 This repository contains a Terraform module to deploy an AWS API Gateway. This module creates a RESTful API with a specified resource and method type.
 
 #Prerequisites:
-1) Terraform 1.0 or later
-2) An AWS account with permissions to create API Gateway resources
-3) AWS CLI configured with appropriate access
+1) Terraform v0.12 or later : Install Terraform from the official site (https://www.terraform.io/downloads.html).
+2) AWS CLI: Install and configure with correct permissions. (https://aws.amazon.com/cli/).
+3) AWS account: Ensure you have an AWS account with the necessary permissions to create API Gateway resources.
 
 #Project Structure:
 1) main.tf: Invokes the API Gateway module with specified variales
