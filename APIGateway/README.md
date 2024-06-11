@@ -1,4 +1,4 @@
-#AWS API Gateway using Terraform
+# AWS API Gateway using Terraform
 
 This repository contains a Terraform module to deploy an AWS API Gateway. This module creates a RESTful API with a specified resource and method type.
 
