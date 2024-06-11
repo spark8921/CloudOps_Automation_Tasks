@@ -17,3 +17,8 @@ This project demonstrates how to use Terraform to set up an AWS Web Application 
 7) modules/waf/variables.tf: Defines input variables for the WAF module
 8) modules/waf/outputss.tf: Defines output variables
 
+#Steps for running the application
+1) terraform init
+2) terraform plan
+3) terraform apply
+4) If you want to destroy, then terraform destroy
