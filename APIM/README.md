@@ -4,9 +4,9 @@ This terraform configuration provides a structured approach to setting up an Azu
 (APIM) service. The APIM service acts as a gateway to manage API requests from external users or systems to backend services, ensuring protection, security, and effective management of APIs at scale.
 
 #Prerequisites:
-1) Terraform 1.0 or later
-2) An AWS account with permissions to create API Gateway resources
-3) AWS CLI configured with appropriate access
+1) Terraform v0.12 or later : Install Terraform from the official site (https://www.terraform.io/downloads.html).
+2) AWS CLI: Install and configure with correct permissions. (https://aws.amazon.com/cli/).
+3) AWS account: Ensure you have an AWS account with the necessary permissions to create API Gateway resources.
 
 #Project Structure
 1) main.tf: Entry point for the Terraform configuration and calls the APIM module
