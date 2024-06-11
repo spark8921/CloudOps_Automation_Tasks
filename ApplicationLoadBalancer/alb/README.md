@@ -3,9 +3,9 @@
 This project demonstrates how to use terraform to set up an AWS Application Load Balancer(ALB) that routes traffic to EC2 instances within a VPC. The set up includes security groups,subnets,vpc and necessary configurations to ensure internal and external communication.
 
 #Prerequisites:
-1) Terraform v0.12 or later
-2) AWS CLI with correct permissions
-3) AWS acount with necessary resources
+1) Terraform v0.12 or later : Install Terraform from the official site (https://www.terraform.io/downloads.html).
+2) AWS CLI: Install and configure with correct permissions. (https://aws.amazon.com/cli/).
+3) AWS account: Ensure you have an AWS account with the necessary permissions to create resources.
 
 #Project Structure:
 1) main.tf : Main configuration file for VPC,Subnets and Security Groups Configuration
