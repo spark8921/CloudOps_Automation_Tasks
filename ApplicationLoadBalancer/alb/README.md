@@ -1,4 +1,4 @@
-#AWS ALB with EC2 using Terraform
+# AWS ALB with EC2 using Terraform
 
 This project demonstrates how to use terraform to set up an AWS Application Load Balancer(ALB) that routes traffic to EC2 instances within a VPC. The set up includes security groups,subnets,vpc and necessary configurations to ensure internal and external communication.
 
