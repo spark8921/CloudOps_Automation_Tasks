@@ -8,3 +8,10 @@ This module helps you set up and manage AWS WAF (Web Application Firewall) Web A
 3) AWS account: Ensure you have an AWS account with the necessary permissions to create resources.
 
 #Project Structure:
+
+
+#Steps for running the application
+1) terraform init
+2) terraform plan
+3) terraform apply
+4) If you want to destroy, then terraform destroy
